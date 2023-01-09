@@ -16,7 +16,7 @@ export default function index() {
             <Col lg={4} md={6} sm={12} className="">
               <div className="">
                 <div className="py-3">
-                  <img src="/logo192.png" style={{ width: "50px" }} />
+                  <img src="/logo192.png" style={{ width: "50px" }} alt="logo"/>
                 </div>
                 <p style={{textAlign:'justify'}}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
