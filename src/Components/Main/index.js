@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 export default function index() {
   return (
     <>
-      <section className="main vh-100 d-flex align-items-center">
+      <section className="main min-vh-100 d-flex align-items-center">
         <Container className="container">
           <div className="">
             <div className="">
@@ -29,11 +29,11 @@ export default function index() {
           </div>
         </Container>
       </section>
-      <section className="main__two ">
+      <section className="main__two min-vh-100 ">
         <Container className="container">
           <p
             className="text-center py-5"
-            style={{ fontSize: "37px", fontWeight: "500" }}
+            style={{ fontSize: "20px", fontWeight: "500" }}
           >
             Why you must choose us
           </p>
@@ -41,21 +41,21 @@ export default function index() {
             xs={1}
             md={1}
             lg={3}
-            className=" text-center align-items-start justify-content-center vh-100 h-100  py-5 position-relative"
+            className=" text-center align-items-start justify-content-center   py-5 position-relative"
           >
-            {Array.from({ length: 3 }).map((_, idx) => (
-              <Col className="position-relative " >
-                <div className="cards " >
-                  <div className="">
+            {/* {Array.from({ length: 3 }).map((_, idx) => ( */}
+              <Col lg={4} className="position-relative mb-5" >
+                {/* <div className="cards " > */}
+                  <div className="bg-white ">
                     <div
                       className="position-absolute"
-                      style={{ marginTop: "-30px", top: "0", left: "45%" }}
+                      style={{ marginTop: "-45px", top: "0", left: "42%" }}
                     >
                       <img
                         src="/img/presentation.png"
                         className="App-logo"
                         alt="logo"
-                        style={{ width: "80px" }}
+                        style={{ width: "60px" }}
                       />
                     </div>
                     <p className="title_card pt-3">Lorem One</p>
@@ -65,61 +65,56 @@ export default function index() {
                       standard dummy text ever since the 1500s
                     </p>
                   </div>
-                </div>
+                {/* </div> */}
               </Col>
-            ))}
-            {/* <Col className="position-relative">
-                <div className="cards position-absolute">
+              <Col lg={4} className="position-relative mb-5" >
+              {/* <div className="cards " > */}
+                <div className="bg-white ">
                   <div
-                    className=""
-                    style={{ marginTop: "-30px", top: "0", left: "50%" }}
+                    className="position-absolute"
+                    style={{ marginTop: "-45px", top: "0", left: "42%" }}
                   >
                     <img
                       src="/img/books.png"
                       className="App-logo"
                       alt="logo"
-                      style={{ width: "80px" }}
+                      style={{ width: "60px" }}
                     />
                   </div>
-                  <p
-                    className="title_card pt-3"
-                    
-                  >
-                    Lorem Two
-                  </p>
+                  <p className="title_card pt-3">Lorem One</p>
                   <p className="content__ px-5 pb-4">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
                   </p>
                 </div>
-              </Col>
-              <Col className="position-relative">
-                <div className="cards position-absolute ">
-                  <div
-                    className=""
-                    style={{ marginTop: "-30px", top: "0", left: "50%" }}
-                  >
-                    <img
-                      src="/img/certificate.png"
-                      className="App-logo"
-                      alt="logo"
-                      style={{ width: "80px" }}
-                    />
-                  </div>
-                  <p
-                    className="title_card pt-3"
-                    
-                  >
-                    Lorem Three
-                  </p>
-                  <p className="content__ px-5 pb-4">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s
-                  </p>
+              {/* </div> */}
+            </Col>
+            <Col lg={4} className="position-relative mb-5" >
+            {/* <div className="cards " > */}
+              <div className="bg-white ">
+                <div
+                  className="position-absolute"
+                  style={{ marginTop: "-45px", top: "0", left: "42%" }}
+                >
+                  <img
+                    src="/img/certificate.png"
+                    className="App-logo"
+                    alt="logo"
+                    style={{ width: "60px" }}
+                  />
                 </div>
-              </Col> */}
+                <p className="title_card pt-3">Lorem One</p>
+                <p className="content__ px-5 pb-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
+            {/* </div> */}
+          </Col>
+            {/* // ))} */}
+            
           </Row>
         </Container>
       </section>

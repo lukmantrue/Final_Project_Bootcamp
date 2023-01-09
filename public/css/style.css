@@ -72,7 +72,7 @@
 }
 .navbar{
     background-color: #2a61a8;
-    padding: 0 80px !important;
+    /* padding: 0 80px !important; */
     font-size: 14px;
     font-weight: 500;
 
