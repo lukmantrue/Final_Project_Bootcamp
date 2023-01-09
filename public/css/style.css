@@ -1,0 +1,148 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.image img{
+    width: 50px;
+}
+
+.main{
+    background-color: #2a61a8;
+}
+.main__two{
+    background-color:aliceblue;
+}
+
+
+.cards{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:400px){
+    .cards{
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin:90px 0;
+        height: 200px;
+        width: auto;
+        min-width: 5em;
+      
+    }
+
+    .cards img{
+        width: 50px !important;
+    }
+
+    .title_card{
+        font-size:18px;
+        font-weight: 600;
+    }
+
+    .content__{
+        font-size: 9px;
+
+    }
+
+
+}
+@media only screen and (min-width:600px){
+    .cards{
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-bottom:20px;
+
+        height: auto;
+        /* min-height: 250px; */
+        
+    }
+    .cards img{
+        width: 50px !important;
+    }
+
+    .title_card{
+        font-size:20px;
+        font-weight: 600;
+    }
+
+    .content__{
+        font-size: 16px;
+
+    }
+}
+.navbar{
+    background-color: #2a61a8;
+    padding: 0 80px !important;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.container{
+    padding: 0 90px !important;
+}
+
+.tittle__dropdown{
+    color: #ffffff !important;
+}
+.padding_nav:nth-child(1){
+    padding: 5px 5px;  
+}
+.padding_nav:nth-child(2){
+    padding: 5px 5px;  
+}
+.padding_nav:nth-child(3){
+    padding: 5px 5px;  
+}
+.padding_nav:nth-child(1):hover{
+    background-color: #205295;
+    font-size: 14px;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+.padding_nav:nth-child(2):hover{
+    background-color: #205295;
+    font-size: 14px;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+.padding_nav:nth-child(3):hover{
+    background-color: #205295;
+    font-size: 14px;
+    padding: 12px 5px;
+    border-radius: 20px !important;
+}
+/* .padding_nav:nth-child(3):hover::after{
+    background-color: #205295;
+    font-size: 14px;
+    padding: 12px 5px;
+    border-radius: 20px !important;
+} */
+.btn__join{
+    background-color: #ff6161;
+    padding: 11px 40px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.btn__join:hover{
+    background-color: #ff7474;
+    padding: 11px 40px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.sign__in{
+    padding: 10px 15px;
+    background-color:#ff6161;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: aliceblue;
+    
+}
