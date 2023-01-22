@@ -4,11 +4,16 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import { useState } from "react";
+import { useEffect } from "react";
 
 
 
 export default function Index() {
   const [state, setState] = useState('');
+
+  useEffect(()=>{
+    alert("Selamat datang di website kami");
+  }, []);
 
   function Join(){
     setState(
@@ -16,6 +21,8 @@ export default function Index() {
     );
   
   }
+
+
 
   return (
     <>

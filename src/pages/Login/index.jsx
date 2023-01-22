@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { Link } from "react-router-dom";
 
 import Navbar from '../../components/Navbar';
 
@@ -31,7 +32,7 @@ function Login(props) {
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Check me out" />
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="submit" as={Link} to="/">
                 Submit
               </Button>
             </Form>
