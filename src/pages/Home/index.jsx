@@ -2,9 +2,9 @@ import React from "react";
 import Header from '../../templates/Header';
 import Body from '../../templates/Body';
 import Footer from '../../templates/Footer';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from '../../components/Navbar';
-import About from '../About';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Navbar from '../../components/Navbar';
+// import About from '../About';
 
 
 

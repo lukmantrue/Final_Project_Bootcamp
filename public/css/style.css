@@ -6,7 +6,7 @@
 }
 
 .main{
-    background-color: #2a61a8;
+    background-color: #152A46;
 }
 .main__two{
     background-color:aliceblue;
@@ -71,7 +71,7 @@
     }
 }
 .navbar{
-    background-color: #2a61a8;
+    background-color: #152A46;
     /* padding: 0 80px !important; */
     font-size: 14px;
     font-weight: 500;
@@ -95,19 +95,19 @@
     padding: 5px 5px;  
 }
 .padding_nav:nth-child(1):hover{
-    background-color: #205295;
+    background-color: #152A46;
     font-size: 14px;
     padding: 5px 5px;
     border-radius: 20px;
 }
 .padding_nav:nth-child(2):hover{
-    background-color: #205295;
+    background-color: #152A46;
     font-size: 14px;
     padding: 5px 5px;
     border-radius: 20px;
 }
 .padding_nav:nth-child(3):hover{
-    background-color: #205295;
+    background-color: #152A46;
     font-size: 14px;
     padding: 12px 5px;
     border-radius: 20px !important;
