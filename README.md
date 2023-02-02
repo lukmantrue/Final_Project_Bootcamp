@@ -1,8 +1,4 @@
 ### Demo
 
 <a href="https://final-project-bootcamp.vercel.app/" target="_blank" style="font-weight:700; color:#19194b">Demo</a>
-#� �F�i�n�a�l�_�P�r�o�j�e�c�t�_�B�o�o�t�c�a�m�p�
-�
-�#� �F�i�n�a�l�_�P�r�o�j�e�c�t�_�B�o�o�t�c�a�m�p�
-�
-�
+
